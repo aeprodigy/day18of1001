@@ -1,0 +1,68 @@
+body{
+    background-image: url("food\ \(3\).jpg");
+    background-repeat: no-repeat;
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.layout{
+    background: white;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    margin-top: 10%;
+    backdrop-filter: blur(7rem);
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card input{
+    border: none;
+    border-radius: 2rem;
+    width: 150%;
+    height: 45px;
+    text-align: center;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    width: 150%;
+    height: 45px;
+    border-radius: 2rem;
+    border: none;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+footer{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5rem;
+}
+.button{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    width: 150%;
+    height: 45px;
+    border-radius: 2rem;
+    border: none;
+}
